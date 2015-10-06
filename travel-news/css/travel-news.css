@@ -1,0 +1,50 @@
+header {
+	width: 600px;
+	margin: auto;
+}
+
+img,
+body {
+	width: 600px;
+	margin: auto;
+}
+
+h2 {
+	font-style: italic;
+}
+
+h4 {
+	font-family: Arial;
+	text-align: right;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	border-bottom: 1px solid black;
+	padding: 20px 0 20px 0;
+}
+
+.links {
+	text-align: right;
+	display: inline;
+	border-left: 1px solid black;
+	padding: 0 10px 0 10px;
+}
+
+.links:first-child {
+	border: none;
+}
+
+li:first-child {
+	padding-top: 0;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+

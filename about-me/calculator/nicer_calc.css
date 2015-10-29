@@ -9,6 +9,13 @@ body {
   color: darkseagreen;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin-left: 55px;
+  margin-top: 0;
+}
+
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -63,6 +70,7 @@ input[disabled] {
 /*Buttons ----------------------------------------*/
 ul {
   margin-top: 30px;
+  margin-bottom: 10px;
   padding-left: 35px;
   display: flex;
   list-style: none;
@@ -106,5 +114,5 @@ button {
 
 .bottom {
   background: slategray;
-  height: 230px;
+  height: 260px;
 }

@@ -29,11 +29,14 @@ input {
   border: 1px solid darkseagreen;
   background: slategray;
   text-align: center;
+  font-size: 48px;
 }
 
 input::-webkit-input-placeholder {
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   color: darkseagreen;
+  padding-top: 15px;
 }
 
 input:first-child {

@@ -13,7 +13,7 @@ compareF.addEventListener('click', calcCtoF);
 // Event Handlers ---------------------------------------------------
 function calcFahrenheitToCelcius(tempC) {
   var tempF = (tempC - 32) * 5/9;
-  return tempF;
+  return Math.round(tempF);
 }
 
 function calcFtoC(event) {
@@ -27,7 +27,7 @@ function calcFtoC(event) {
 
 function calcCelciusToFahrenheit(tempF) {
   var tempC = tempF * 9/5 + 32;
-  return tempC;
+  return Math.round(tempC);
 }
 
 function calcCtoF(event) {

@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+}
+
+html {
+	height: 100%
+}
+
+/*HEADINGS*/
+h1 {
+	font-family: Arial;
+	background: seagreen;
+	text-align: center;
+	padding: 10px;
+	margin: 0 0 20px 0;
+}
+
+div {
+	font-family: Arial;
+	border-radius: 4px;
+}
+
+.background {
+	background: lightgray;
+	border: 1px solid darkgray;
+	width: 600px;
+	margin: auto;
+}
+
+.new {
+	width: 600px;
+	margin: 30px 30px 10px;
+}
+
+.tasks {
+	margin: 0 0 30px 0;
+}
+
+input,
+button {
+	font-size: 16px;
+	border: 1px solid darkgray;
+	border-radius: 4px;
+	height: 50px;
+	width: 150px;
+	margin: 0 5px;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+input {
+	padding: 0 10px;
+}
+
+.check {
+	height: 15px;
+	width: 20px;
+	margin: 0 10px 0 0;
+}
+
+button {
+	background: royalblue;
+	padding: 10px; 
+}
+

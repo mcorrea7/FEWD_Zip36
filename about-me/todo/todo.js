@@ -3,50 +3,36 @@ var form   = document.querySelector("form");
 var task   = document.querySelector(".task");
 var date   = document.querySelector(".date");
 var button = document.querySelector("button");
-var list   = document.querySelector("ul");
+var list   = document.querySelector(".list");
 var check  = document.querySelector(".check");
 
 console.log(task);
 console.log(date);
 
-//Setup
-var tasks = [];
 
 //Events
-form.addEventListener("submit", addTask);
-button.addEventListener("click", showTask);
-// check.addEventListener("click", completedTask);
+form.addEventListener("submit", todo);
 
 //Event Handlers
-function showTask(e) {
-	console.log("showTask");
-	tasks.forEach(todo);
-}
+function todo(a) {
+	a.preventDefault();									// prevents default form behaviours
 
-function addTask(e) {
-	e.preventDefault();
-	tasks.push(task.value);
-
-	form.reset();
-}
-
-function todo() {
+	// Define values of task & date inputs
 	var taskValue = task.value;
 	var dateValue = date.value;
 
-	var newTask = document.createElement("LI");
-	newTask.textContent = task.value + "(" + date.value + ")";
-	list.appendChild(newTask);
+	// Create Elements
+	var checkbox = document.createElement("input");		// creates a checkbox
+	var newTask = document.createElement("LI");			// creates the new task with check box and text
+	var textArea = document.createElement("span");		// creates a span for the task and date
 
+	// Decorate Elements
+	checkbox.setAttribute("type", "checkbox");			// define the type of box
+	textArea.textContent = taskValue + " " + dateValue;	// defines the text in the new element
+
+	// Append Elements
+	list.appendChild(newTask);							// adds newTask to the ul
+	newTask.appendChild(checkbox);						// adds the checkbox to newTask
+	newTask.appendChild(textArea);						// adds all text to newTask
 
 }
-
-// function completedTask(e) {
-// 	var check = event.target;
-
-// 	if (check = true) {
-
-// 	}
-
-
-// }

@@ -27,16 +27,17 @@ div {
 	margin: auto;
 }
 
-.new {
+form {
 	width: 600px;
 	margin: 30px 30px 10px;
 }
 
-.tasks {
+ul {
 	margin: 0 0 30px 0;
 }
 
-input,
+.task,
+.date,
 button {
 	font-size: 16px;
 	border: 1px solid darkgray;
@@ -46,23 +47,24 @@ button {
 	margin: 0 5px;
 }
 
+input {
+	width: 20px;
+}
+
 li {
 	list-style: none;
-	display: inline;
 }
 
 input {
 	padding: 0 10px;
 }
 
-.check {
-	height: 15px;
-	width: 20px;
-	margin: 0 10px 0 0;
-}
-
 button {
 	background: royalblue;
 	padding: 10px; 
+}
+
+input:checked + span {
+	text-decoration: line-through;
 }
 

@@ -1,0 +1,88 @@
+html {
+	width: 100%;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+ul {
+	font-size: 28px;
+	list-style: none;
+}
+
+li {
+	font-weight: 100;
+	text-decoration: none;
+	margin-bottom: 20px;
+
+}
+
+li:hover {
+	font-weight: bold;
+}
+
+.id:hover {
+	background-image: 
+}
+
+.header {
+	background: #f9f9f9;
+	padding: 0 10px;
+	text-align: right;
+}
+
+h1 {
+	font-size: 34px;
+	margin: 10px 10px 0;
+}
+
+h3 {
+	font-weight: 100;
+	font-size: 20px;
+	margin: 10px;
+}
+
+/* .contents a .wrap {
+    position: relative;
+    display: block;
+    -webkit-transition: all 225ms ease;
+    -moz-transition: all 225ms ease;
+    transition: all 225ms ease;
+    padding: 0 50px 0 20%;
+}
+.wrap a .wrap, #latest .contents a:before, #latest .contents a:before { background: #232323; }
+.wrap a:hover .wrap, #latest .contents a:hover:before, #latest .contents a:hover:before { background: rgb(255, 109, 109); }
+.wrap a.first .wrap { padding-bottom: 50px; padding-top: 50px; }
+.wrap a.middle .wrap { padding-top: 75px; padding-bottom: 75px; }
+.wrap a.last .wrap { padding-top: 50px; padding-bottom: 50px; }
+
+.wrap a:hover h2,
+.wrap a:hover p {
+    color: #fff;
+    -webkit-transition: all 225ms ease;
+    -moz-transition: all 225ms ease;
+    transition: all 225ms ease;
+}
+
+.wrap a h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 300;
+}
+.wrap a p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}*/

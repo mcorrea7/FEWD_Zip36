@@ -36,6 +36,12 @@ li {
 	text-align: right;
 }
 
+footer {
+    background: #f9f9f9;
+    padding: 30px;
+    text-align: right;
+}
+
 h1 {
 	font-size: 34px;
 	margin: 10px 0;

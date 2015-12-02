@@ -24,6 +24,25 @@ li {
 	margin-bottom: 20px;
 
 }
+.flexbox {
+    display: flex;
+    margin: 10px;
+}
+
+.text {
+    flex:1;
+}
+
+.info {
+    flex:1;
+    margin: 0 20px 0 40px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 0 40px;
+}
 
 li:hover {
 	font-weight: bold;
@@ -51,6 +70,14 @@ footer {
     margin: 0 0 2px;
     font-size: 25px;
     font-weight: 200;
+    letter-spacing: 0.04em;
+}
+
+.bold {
+    color: #00aaea;
+    margin: 0 0 2px;
+    font-size: 35px;
+    font-weight: 500;
     letter-spacing: 0.04em;
 }
 
@@ -201,17 +228,22 @@ input, textarea  {
 ==============================*/
 #categories,
 #industrial,
-#product { 
+#product,
+#aboutme { 
     text-align: left; 
-    height: 650px;
+    height: 700px;
+}
+
+#industrial,
+#product,
+#aboutme, 
+#resume {
+    padding: 40px 0 0 0;
 }
 
 #industrial .first,
 #industrial .second,
-#industrial .third {
-    padding-bottom: 50px; 
-}
-
+#industrial .third,
 #industrial .fourth,
 #industrial .fifth,
 #industrial .last {
@@ -230,13 +262,12 @@ input, textarea  {
     display: flex;
 }
 
-
-.#industrial .contents,
-.#product .contents {
-    display: flex;
+#categories .contents,
+#industrial .contents,
+#product .contents {
     margin: auto;
     height: 180px;
-    padding: 100px 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 #categories .contents a,
@@ -250,7 +281,8 @@ input, textarea  {
 
 #categories .contents a .wrap,
 #industrial .contents a .wrap,
-#product .contents a .wrap {
+#product .contents a .wrap,
+#aboutme .contents a .wrap {
     position: relative;
     display: block;
     -webkit-transition: all 225ms ease;
@@ -259,12 +291,12 @@ input, textarea  {
     padding: 25px 50px;
 }
 
-/*#categories .contents a .wrap,
+#categories .contents a .wrap,
 #industrial .contents a .wrap,
 #product .contents a .wrap {
     background: #fff; 
     color: #00aaea;
-}*/
+}
 
 #industrial .contents a.first .wrap,
 #industrial .contents a.fourth .wrap { 
@@ -279,6 +311,7 @@ input, textarea  {
 
 #categories .contents a.first .wrap,
 #categories .contents a.middle .wrap,
+#categories .contents a .third .wrap,
 #categories .contents a.last .wrap { 
     padding-top: 40px; padding-bottom: 40px; 
 }
@@ -296,7 +329,8 @@ input, textarea  {
 
 #categories a h4,
 #industrial a h4,
-#product a h4 {
+#product a h4,
+#aboutme a h4 {
     color: #00aaea;
     margin: 0 0 2px;
     font-size: 25px;

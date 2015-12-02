@@ -117,12 +117,6 @@ img {
 	padding: 0 30px 0 0;
 }
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-  	.section {
-  		margin: 20px 0;
-  	}
-  }
+.spacing img:first-child {
+	padding: 0 0 40px 0;
+}

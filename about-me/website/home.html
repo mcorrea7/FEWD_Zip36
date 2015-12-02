@@ -6,18 +6,34 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div class="header">
 		<h1>MEGAN CORREA</h1>
 		<h3>Industrial + Product Designer</h3>
 	</div>
+<!-- <div id="header" class="header">
+   <nav id="nav">
+       <ul class="nav navbar-nav">
+           <li>
+             <a href="#categories">Home</a>
+           </li>
+           <li>
+             <a href="#aboutme">About</a>
+           </li>
+           <li>
+             <a href="#resume">Resume</a>
+           </li>
+       </ul>
+   </nav>
+</div> -->
 
 	<section id="categories">
 	    <div class="contents">
 	        <a href="#industrial" class="first">
 	            <div class="wrap">
-	                <h4>Industrial Design ><i class="fa-angle-down"></i></h4>
+	                <h4>Industrial Design ></h4>
 	            </div>
 	        </a>
 	        <a href="#product" class="middle">
@@ -51,7 +67,6 @@
 		            <div class="wrap">
 						<h4>LUMINARY</h4>
 						<p>An effective light source conducive for late-night working.</p>
-						<br>
 		            </div>
 		        </a>
 		        <a href="industrial_design/acl/acl.html" class="third">
@@ -105,6 +120,28 @@
 	        </a>
 	    </div>
 	</section>
+	
+<!-- 	<section class="aboutme">
+		<div class="flexbox">
+			<div class="text">
+			<p class="info">
+				Megan is a 2015 graduate from the Rhode Island School of Design and received her BFA in Industrial Design. In May 2015, she received the RISD Industrial Design Faculty Award which is presented to a graduating senior for outstanding work and exceptional contributions to the department. She enjoys approaching problems from different perspectives in order to obtain a desired result. Much of her inspiration is drawn from geometry and angular shapes. Through iteration and form exploration, Megan has learned the importance of being open to changing an idea. This has been an integral part of her growth as a designer.
+			</p>
+			<p class="info">
+				Megan is based in the Bay Area. She loves to travel around the world and experiencing other cultures. She also loves and has been trained in classical piano music for 13 years. Among her past musical accomplishments, she has won several gold medals at the US Open Music Competition and has performed at Carnegie Hall in New York under the American Fine Arts Festival in June 2010. Megan was an Assistant Board Member of the International Russian Music Piano Competition from 2010 - 2013 and enjoys volunteering her time at music competitions.
+			</p>
+			</div>
+			<div class="img">
+				<img src="img/profilepic.jpg">
+				<p class="info">
+					: (408) 242-1268
+					: mcorrea@alumni.risd.edu
+					<a href="http://www.linkedin.com/pub/megan-correa/64/160/52"></a>: http://www.linkedin.com/pub/megan-correa/64/160/52 
+
+				</p>
+			</div>
+		</div>
+	</section> -->
 
 	<section id="resume">
 		<p class="center">
@@ -227,5 +264,16 @@
 			Megan Correa 2015.
 		</p>
 	</footer>
+
+<!-- this goes inside the header tag-->
+
+<!-- all these references goes before the closing body tag-->
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="//cdn.jsdelivr.net/stickynavbar.js/1.1.2/jquery.stickyNavbar.min.js"></script>
+
+$(function () {
+   $('.header').stickyNavbar();
+});
 </body>
 </html>

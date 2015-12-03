@@ -5,14 +5,18 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="navbar/font-awesome.min.css">
 	<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="animate.min.css">
+	<link rel="stylesheet" type="text/css" href="jquery.stickyNavbar.css">
 </head>
 <body>
 	<div class="header">
 		<h1>MEGAN CORREA</h1>
 		<h3>Industrial + Product Designer</h3>
 	</div>
+
+
 <!-- <div id="header" class="header">
    <nav id="nav">
        <ul class="nav navbar-nav">
@@ -26,8 +30,42 @@
              <a href="#resume">Resume</a>
            </li>
        </ul>
+       <ul class="nav navbar-nav2">
+           <li>
+           	<p style="font-size: 31px">MEGAN CORREA</p>
+           	<p style="font-size: 18px">Industrial & Product Designer</p>
+           </li>
+       </ul>
    </nav>
 </div> -->
+
+<!--     <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#industrialdesign">Industrial Design</a></li>
+                <li><a href="#productdesign">Product Design</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div> -->
 
 	<section id="categories">
 	    <div class="contents">
@@ -43,7 +81,7 @@
 	        </a>
 	        <a href="#aboutme" class="middle">
 	            <div class="wrap">
-	                <h4>About Me ></h4>
+	                <h4>About ></h4>
 	            </div>
 	        </a>
 	        <a href="#resume" class="last">
@@ -123,7 +161,7 @@
 	    </div>
 	</section>
 	<section id="aboutme">
-		<h1 class="bold" style="padding-left: 50px">About Me</h1>
+		<h1 class="bold" style="padding-left: 50px">About</h1>
 		<div class="flexbox">
 			<div class="text">
 			<p class="info">
@@ -275,9 +313,29 @@
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="//cdn.jsdelivr.net/stickynavbar.js/1.1.2/jquery.stickyNavbar.min.js"></script>
+<script src="navbar/jquery.easing.min.js"></script>
+<script src="navbar/jquery.stickyNavbar.js"></script>
+<script src="navbar/jquery.stickyNavbar.min.js"></script>
+<script src="navbar/wow.min.js"></script>
+<script> $(function () {
+   // $('.header').stickyNavbar();
+}); </script>
 
-<!-- $(function () {
-   $('.header').stickyNavbar();
-}); -->
+<script>
+	$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
 </body>
 </html>

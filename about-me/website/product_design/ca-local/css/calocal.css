@@ -53,15 +53,14 @@ h4 {
 }
 
 .collaborators {
-	text-align: right;
-	display: flex;
-	justify-content: flex-end;
-	margin: 0 0 20px;
+/*	display: flex;
+*//*	justify-content: flex-end;
+*/	margin: 0 0 20px;
 }
 
 h5,
 h6 {
-	width: 500px;
+	width: 100px;
 }
 
 h5 {

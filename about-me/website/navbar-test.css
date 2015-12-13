@@ -1,0 +1,6 @@
+
+.show-nav #site-menu {
+/*  background: rgba(0, 0, 0, 0.2);*/
+  -webkit-transform: translate3d(0px, 0, 0); 
+  transform: translate3d(0px, 0, 0);
+}

@@ -24,6 +24,11 @@ li {
 	margin-bottom: 20px;
 
 }
+
+li:hover {
+    font-weight: bold;
+}
+
 .flexbox {
     display: flex;
     margin: 10px;
@@ -48,11 +53,7 @@ img {
     margin: 0 40px;
 }
 
-li:hover {
-	font-weight: bold;
-}
-
-.header {
+/*.header {
 	background: #f9f9f9;
 	padding: 10px 10px;
 	text-align: right;
@@ -60,16 +61,16 @@ li:hover {
 
 .header li {
     display: inline;
-}
+}*/
 
-#nav {
+/*#nav {
     display: flex;
 }
 
 #header .nav .navbar-nav a {
     color: #00aaea;
     flex: 1;
-}
+}*/
 
 
 footer {
@@ -174,27 +175,110 @@ h5 {
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
-/* NAVBAR -------------------------------------------------- */
 
-/*.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
+
+
+
+===============================
+
+html,
+body,
+#site-wrapper {
+  height:100%;
+}
+
+header{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  z-index: 10;
+  height: 68px;
+  width: 100%;
+  background: #fff;
+  position: fixed;
   left: 0;
-  z-index: 20;
+  border-bottom: 1px solid #ccc;
+  top: 0;
 }
 
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
+#site-wrapper #site-menu a h1,
+#site-wrapper .navbar-fixed-top a h1{
+    font-size: 16px;
+  text-align:center;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+
+#site-wrapper #site-menu a h3,
+#site-wrapper .navbar-fixed-top a h3{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.navbar-wrapper .navbar .container {
-  width: auto;
-}*/
+
+#site-wrapper #site-menu a,
+#site-wrapper .navbar-fixed-top a{
+  color:black;
+}
+
+#site-wrapper #site-menu a:hover,
+#site-wrapper .navbar-fixed-top a:hover{
+  text-decoration: none;
+}
+
+#site-menu {
+  -webkit-transition: 300ms ease-out all;
+  transition: 300ms ease-out all;
+}
+
+#site-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 100%;
+  -webkit-transform: translate3d(-160px, 0, 0); 
+  transform: translate3d(-160px, 0, 0);
+  background: #FFF;
+  padding: 75px 16px 0 16px;
+  border-right: 1px solid gray;
+  z-index:7;
+}
+
+.show-nav #site-menu {
+  -webkit-transform: translate3d(0px, 0, 0); 
+  transform: translate3d(0px, 0, 0);
+}
+
+
+#button {
+  background-color: #fff;
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 20px;
+  border:none;
+  border-radius:0px;
+  position:fixed;
+/*  top:0;
+  left:0;*/
+  padding-top: 25px;
+}
+
+
+.fa-bars:before {
+    content: "\f0c9";
+    color: black;
+}
+
+.toggle-nav{
+  color: #ff3264; 
+  font-size: 20px;
+}
+===============================
 
 /*================================
 =            BASE CSS            =
@@ -216,9 +300,10 @@ h5 {
 body {
     -webkit-font-smoothing: antialiased;
 }
-section, header, footer, main, article, nav, aside {
+section, /*header,*/ footer, main, article, nav, aside {
     position: relative;
 }
+
 a {
     color: #ff455f;
     outline: none !important;
@@ -246,7 +331,7 @@ input, textarea  {
 .ScrollSceneIndicators { z-index: 9999999 !important; }
 
 /*==============================
-=            LATEST            =
+=      Easing First Page       =
 ==============================*/
 #categories,
 #industrial,
@@ -384,20 +469,26 @@ input, textarea  {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
+}
 
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}

@@ -1,0 +1,121 @@
+html {
+	width: 100%;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+/*	margin: 0 0 0 100px;
+*/}
+
+ul {
+	font-size: 28px;
+	list-style: none;
+}
+
+li {
+	text-decoration: none;
+
+}
+
+.header {
+	background: #f9f9f9;
+	padding: 0 10px;
+	text-align: right;
+}
+
+footer {
+    background: #f9f9f9;
+    padding: 30px;
+    text-align: right;
+}
+
+h1 {
+	font-size: 34px;
+	margin: 10px 0;
+}
+
+h3 {
+	font-weight: 100;
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.collaborators {
+/*	display: flex;
+*//*	justify-content: flex-end;
+*/	margin: 0 0 20px;
+}
+
+h5,
+h6 {
+	width: 100px;
+}
+
+h5 {
+	font-size: 20px;
+	padding: 0 20px;
+}
+
+article {
+	font-size: 17px;
+	font-weight: 100;
+	padding: 0 0 5px;
+}
+
+.hero {
+	position: relative;
+}
+
+.hero img {
+	position: relative;
+}
+
+.hero h4 {
+	color: white;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	padding: 4px 10px;
+}
+
+img {
+	width: 100%;
+}
+
+.section {
+	margin: 40px 80px;
+}
+
+.materials {
+	display: flex;
+}
+
+.materials .col1,
+.materials .col2 {
+	flex:1;
+}
+
+.materials .col1 {
+	padding: 0 30px 0 0;
+}
+
+.spacing img:first-child {
+	padding: 0 0 40px 0;
+}
+
+.proto {
+	width: 300px;
+	margin: 0 0 0 320px;
+	}

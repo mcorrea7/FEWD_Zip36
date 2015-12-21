@@ -32,6 +32,10 @@ h2:last-child {
 	padding: none;
 }
 
+h4 {
+	margin: 35px 0 0 0;
+}
+
 .site-wrapper {
 	display: flex;
 }
@@ -64,7 +68,7 @@ h2:last-child {
 }
 
 .navbar i {
-	padding: 150px 20px 0 0;
+	padding: 150px 60px 0 0;
 }
 
 .site {
@@ -84,23 +88,46 @@ a {
 .logo {
 	width: 150px;
 	height: 126px;
+	padding: 0 0 0 35px;
 }
 
 img {
-	width: 100%;
+	width: 75%;
 }
 
 input {
 	width: 300px;
-	height: 30px;
-	margin: 0 0 40px 0;
-}
-
-p:first-child {
-	margin: 35px 0 0 0;
+	height: 20px;
+	margin: 5px 0 30px 0;
 }
 
 #button {
 	width: 150px;
-	justify-content: right;
+}
+
+#message {
+	height: 100px;
+}
+
+.flex {
+	display: flex;
+	padding: 20px 0;
+}
+
+.col1 {
+	padding: 0 30px 0 0;
+}
+
+.col2 {
+	padding: 0 20px 0 10px;
+	height: 304px;
+}
+
+.col2 a {
+	text-decoration: none;
+	color: black;
+}
+
+.col2 p {
+	padding: 20px 0 0 0;
 }

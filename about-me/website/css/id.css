@@ -53,6 +53,110 @@ h3 {
 	width: 100%;
 }
 
+
+
+===============================
+
+html,
+body,
+#site-wrapper {
+  height:100%;
+}
+
+header{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  z-index: 10;
+  height: 68px;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  border-bottom: 1px solid #ccc;
+  top: 0;
+}
+
+#site-wrapper #site-menu a h1,
+#site-wrapper .navbar-fixed-top a h1{
+    font-size: 16px;
+  text-align:center;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#site-wrapper #site-menu a h3,
+#site-wrapper .navbar-fixed-top a h3{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#site-wrapper #site-menu a,
+#site-wrapper .navbar-fixed-top a{
+  color:black;
+}
+
+#site-wrapper #site-menu a:hover,
+#site-wrapper .navbar-fixed-top a:hover{
+  text-decoration: none;
+}
+
+#site-menu {
+  -webkit-transition: 300ms ease-out all;
+  transition: 300ms ease-out all;
+}
+
+#site-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 100%;
+  -webkit-transform: translate3d(-160px, 0, 0); 
+  transform: translate3d(-160px, 0, 0);
+  background: #FFF;
+  padding: 75px 16px 0 16px;
+/*  border-right: 1px solid gray;
+*/  z-index:7;
+  background: #f7f7f7;
+}
+
+.show-nav #site-menu {
+  -webkit-transform: translate3d(0px, 0, 0); 
+  transform: translate3d(0px, 0, 0);
+}
+
+
+#button {
+  background-color: #fff;
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 20px;
+  border:none;
+  border-radius:0px;
+  position:fixed;
+/*  top:0;
+  left:0;*/
+  padding-top: 25px;
+}
+
+
+.fa-bars:before {
+    content: "\f0c9";
+    color: black;
+}
+
+.toggle-nav{
+  color: #ff3264; 
+  font-size: 20px;
+}
+===============================
+
 /*================================
 =            BASE CSS            =
 ================================*/

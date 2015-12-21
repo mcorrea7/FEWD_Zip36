@@ -1,0 +1,127 @@
+html {
+	width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: .1em;
+	padding-bottom: 30px;
+}
+
+h2:first-child {
+	padding-top: 30px;
+}
+
+h2:last-child {
+	padding: none;
+}
+
+.site-wrapper {
+	display: flex;
+}
+
+.navbar {
+	position: fixed;
+	margin: 30px 0 0 30px;
+	width: 250px;
+}
+
+.navbar h1 {
+	padding: 0 20px 0 0;
+	background: 
+}
+
+.navbar h2:hover {
+	font-weight: 700;
+}
+
+.navbar i {
+	padding: 150px 60px 0 0;
+}
+
+.site {
+	margin-left: 280px;
+	flex: 2;
+}
+
+aside {
+	flex: 1;
+}
+
+a {
+	text-decoration: none;
+    color: #00aaea;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+i {
+	padding: 40px 60px 0 0;
+}
+
+.logo {
+	width: 150px;
+	height: 126px;
+}
+
+#counseling,
+#planning,
+#tours,
+#parties {
+	display: flex;
+}
+
+#counseling .content,
+#planning .content,
+#tours .content,
+#parties .content {
+	padding: 120px 40px 0;
+}
+
+#counseling .content i,
+#planning .content i,
+#tours .content i,
+#parties .content i {
+	justify-content: center;
+}
+
+#counseling img,
+#planning img,
+#tours img,
+#parties img {
+	width: 400px;
+	height: 500px;
+}
+
+#counseling .content h3,
+#planning .content h3,
+#tours .content h3,
+#parties .content h3 {
+	padding: 0 40px 50px;
+	text-align: center;
+}
+
+#counseling .content p,
+#planning .content p,
+#tours .content p,
+#parties .content p {
+	font-size: 15px;
+	font-weight: 200;

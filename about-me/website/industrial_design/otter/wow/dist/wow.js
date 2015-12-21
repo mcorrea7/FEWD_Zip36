@@ -1,3 +1,24 @@
+$(function() {
+  
+    $('.toggle-nav').click(function() {
+        // Calling a function in case you want to expand upon this.
+        toggleNav();
+    });
+
+  
+});
+
+function toggleNav() {
+    if ($('#site-wrapper').hasClass('show-nav')) {
+        // Do things on Nav Close
+        $('#site-wrapper').removeClass('show-nav');
+    } else {
+        // Do things on Nav Open
+        $('#site-wrapper').addClass('show-nav');
+    } 
+
+}
+
 (function() {
   var MutationObserver, Util, WeakMap, getComputedStyle, getComputedStyleRX,
     bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },

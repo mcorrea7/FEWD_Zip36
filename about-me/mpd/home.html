@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Private Dietitian</title>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/home.css">
+
+<style>
+#site-wrapper,
+.navbar {
+	-webkit-transition: 300ms ease-out all;
+	transition: 300ms ease-out all;
+}
+</style>
+
+</head>
+<body>
+<div class="site-wrapper">
+	<aside class="navbar">
+		<a href="home.html"><img src="img/logo-resized.png" class="logo"></a>
+		<h1>My Private Dietitian</h1>
+		<a href="services.html"><h2>SERVICES</h2></a>
+		<a href="#pricing"><h2>PRICING</h2></a>
+		<a href="about-marise.html"><h2>ABOUT MARISE</h2></a>
+		<a href="contact.html"><h2>CONTACT</h2></a>
+		<ul class="social">
+			<li><i class="fa fa-facebook fa-lg"></i></li>
+			<li><i class="fa fa-linkedin fa-lg"></i></li>
+			<li><i class="fa fa-skype fa-lg"></i></li>
+		</ul>
+	</aside>
+	<div class="site">
+		<div class="section-one">
+			<img src="img/office.png">
+			<div class="content">
+				<h3>What is a Dietitian?</h3>
+				<p>
+					Recognized by medical professionals and insurance companies as the most valuable sources of nutritional information, they provide reliable and up-to-date food and nutrition information. Their recommendations are backed by sound nutritional research and evidence-based practice.
+				</p>
+				<p>
+					A dietitian must have: 
+					• 4-year degree or a Masters in Nutritional Sciences from an American Dietetic Association accredited college
+					• Complete an accredited supervised practice program at a hospital, community agency, and a food service organization.
+					• Pass a national board exam before acquiring the title of Registered Dietitian.
+					• Complete continuing education requirements to maintain registration.
+				</p>
+			</div>
+		</div>
+
+		<div class="section-two">
+			<img src="img/doctor.png">
+			<div class="content">
+				<h3>What is a Nutritionist?</h3>
+				<p>
+					"Nutritionist" is a general term that is not regulated. Some nutritionists have no formal education in nutrition. Some have certifications and many of these certifications are given through online courses of varying quality standards.
+				</p>
+			</div>
+		</div>
+		<div id="pricing">
+			<h3>Pricing</h3>
+			<p>
+				With a physician's referral, your health insurance can be billed. Contact your insurance company to discuss your benefits. Financial arrangements and payment plans are available.
+			</p>
+			<p>
+				Private paying clients can discuss payments with me individually. Individualized packages can be made available depending on individual needs.
+			</p>
+		</div>
+		<footer>
+			<p>
+				Marise D'Abreu
+				<br>
+				Private Dietitian
+				<br>
+				(916)837-9726
+				<br>
+				1300 Suncast Lane, El Dorado Hills, CA 95762
+			</p>
+		</footer>
+	</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+	$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+</script>   
+</body>
+</html>

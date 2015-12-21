@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Private Dietitian</title>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/services.css">
+</head>
+<body>
+<div class="site-wrapper">
+	<aside class="navbar">
+		<a href="home.html"><img src="img/logo-resized.png" class="logo"></a>
+		<h1>My Private Dietitian</h1>
+		<a href="services.html"><h2>SERVICES</h2></a>
+		<a href="home.html"><h2>PRICING</h2></a>
+		<a href="about-marise.html"><h2>ABOUT MARISE</h2></a>
+		<a href="contact.html"><h2>CONTACT</h2></a>
+		<ul class="social">
+			<li><i class="fa fa-facebook fa-lg"></i></li>
+			<li><i class="fa fa-linkedin fa-lg"></i></li>
+			<li><i class="fa fa-skype fa-lg"></i></li>
+		</ul>
+	</aside>
+	<div class="site">
+		<div id="counseling">
+			<img src="img/healthy-salad.jpg">
+			<div class="content">
+				<h3>GET ONE-ON-ONE NUTRITION COUNSELING</h3>
+				<p>
+					Personal one-on-one counseling with a Registered Dietitian to develop an individualized nutrition plan based on client's needs and goals. Follow-up sessions include assessments involving progress tracking of weight, body measurements, body fat, and the discussion of personalized nutrition plan, portions, label reading, dining out, behavioral modification, goal setting and more.
+					<br><br>
+					**Couples counseling available
+				</p>
+				<i class="fa fa-chevron-down"></i>
+			</div>
+		</div>
+		<div id="planning">
+			<div class="content">
+				<h3>MENU PLANNING</h3>
+				<p>
+					No time to think about what to eat, when and how much? Receive 7-day and 28-day personalized menus created by a Registered Dietitian, based on your individual needs, goals and food preferences to take the guesswork out of the diet equation. Shopping lists available. Office visit not required.
+				</p>
+				<i class="fa fa-chevron-down"></i>
+			</div>
+			<img src="img/taco-bowls.jpg">
+		</div>
+		<div id="tours">
+			<img src="img/bruschetta.jpg">
+			<div class="content">
+				<h3>SUPERMARKET TOURS</h3>
+				<p>
+					Get the facts straight! Take a tour of your local supermarket with a Registered Dietitian, to learn the Ins and Outs of each and every aisle. Learn the truth about manufacturers' health claims; learn about food selection, label reading, food comparison, nutrient content of your favorite foods, healthy substitutions, and much, much more!
+				</p>
+				<i class="fa fa-chevron-down"></i>
+			</div>
+		</div>
+		<div id="parties">
+			<div class="content">
+				<h3>CONTEMPORARY COOKING PARTIES</h3>
+				<p>
+					Host a cooking party at your home and enjoy a healthy dinner prepared by Contemporary Nutrition while learning useful nutrition information for healthy and quick meal preparation, proper meal balance, recommended portions, nutrient content and benefits, healthy recipe modifications, and more!
+				</p>
+				<i class="fa fa-chevron-down"></i>
+			</div>
+			<img src="img/party.png">
+		</div>
+	</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+	$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+</script>
+
+</body>
+</html>

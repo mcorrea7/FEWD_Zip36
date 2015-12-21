@@ -1,0 +1,106 @@
+html {
+	width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: 600;
+	padding: 35px 0 0 0;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: .1em;
+	padding-bottom: 30px;
+}
+
+h2:first-child {
+	padding-top: 30px;
+}
+
+h2:last-child {
+	padding: none;
+}
+
+.site-wrapper {
+	display: flex;
+}
+
+.site-wrapper .navbar .social li {
+	list-style: none;
+	display: inline;
+}
+
+.site-wrapper .site h2 {
+	font-size: 24px;
+	font-weight: 500;
+	padding: 35px 0 0;
+	letter-spacing: 0;
+}
+
+.navbar {
+	position: fixed;
+	margin: 30px 0 0 30px;
+	width: 250px;
+}
+
+.navbar h1 {
+	padding: 0 20px 0 0;
+	background: 
+}
+
+.navbar h2:hover {
+	font-weight: 700;
+}
+
+.navbar i {
+	padding: 150px 20px 0 0;
+}
+
+.site {
+	margin-left: 280px;
+	flex: 2;
+}
+
+aside {
+	flex: 1;
+}
+
+a {
+	text-decoration: none;
+    color: #00aaea;
+}
+
+.logo {
+	width: 150px;
+	height: 126px;
+}
+
+img {
+	width: 100%;
+}
+
+input {
+	width: 300px;
+	height: 30px;
+	margin: 0 0 40px 0;
+}
+
+p:first-child {
+	margin: 35px 0 0 0;
+}
+
+#button {
+	width: 150px;
+	justify-content: right;
+}

@@ -55,7 +55,7 @@ h2:last-child {
 }
 
 .navbar h1 {
-	padding: 0 20px 0 0;
+	padding: 0 20px 30px 0;
 }
 
 .navbar h2:hover {
@@ -65,7 +65,6 @@ h2:last-child {
 .navbar i {
 	padding: 150px 60px 0 0;
 }
-
 .site {
 	margin-left: 280px;
 	flex: 2;
@@ -110,11 +109,6 @@ img {
 .content {
 	font-weight: 300;
 	padding: 0 0 30px 0;
-}
-
-ul {
-	font-weight: 300;
-	padding: 0 0 5px 19px;
 }
 
 .col2 .resume h3 {

@@ -1,0 +1,126 @@
+html {
+	width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: .1em;
+	padding-bottom: 30px;
+}
+
+h2:first-child {
+	padding-top: 30px;
+}
+
+h2:last-child {
+	padding: none;
+}
+
+.site-wrapper {
+	display: flex;
+}
+
+.navbar {
+	position: fixed;
+	margin: 30px 0 0 30px;
+	width: 250px;
+}
+
+.navbar h1 {
+	padding: 0 20px 30px 0;
+	background: 
+}
+
+.navbar h2:hover {
+	font-weight: 700;
+}
+
+.navbar i {
+	padding: 150px 60px 0 0;
+}
+
+.site {
+	margin-left: 280px;
+	flex: 2;
+}
+
+.flex {
+	display: flex;
+}
+
+aside {
+	flex: 1;
+}
+
+a {
+	text-decoration: none;
+    color: #4b1649;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+i {
+	padding: 40px 60px 0 0;
+}
+
+.logo {
+	width: 150px;
+	height: 126px;
+	padding: 0 0 0 35px;
+}
+
+/*#col1 .content,
+#col2 .content {
+	margin: 80px 40px 90px;
+	height: 500px;
+}
+
+#col1 .content i,
+#col2 .content i {
+	padding: 0 0 40px;
+}*/
+
+#col1 img,
+#col2 img {
+	width: 400px;
+	height: 500px;
+}
+
+/*#col1 .content h3,
+#col2 .content h3 {
+	padding: 0 40px 50px;
+	text-align: center;
+}
+
+#col1 .content p,
+#col2 .content p {
+	font-size: 15px;
+	font-weight: 200;
+	height: 150px;
+}*/
+
+#counseling,
+#planning,
+#tours,
+#parties {
+	padding-left: 40px;
+	padding-right: 40px;
+}

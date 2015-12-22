@@ -42,8 +42,7 @@ h2:last-child {
 }
 
 .navbar h1 {
-	padding: 0 20px 30px 0;
-	background: 
+	padding: 0 20px 30px 0; 
 }
 
 .navbar h2:hover {
@@ -57,7 +56,7 @@ h2:last-child {
 
 a {
 	text-decoration: none;
-    color: #00aaea;
+    color: #4b1649;
 }
 
 li {
@@ -76,5 +75,5 @@ i {
 }
 
 img {
-	width: 100%
+	width: 100%;
 }

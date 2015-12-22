@@ -65,7 +65,7 @@ aside {
 
 a {
 	text-decoration: none;
-    color: #00aaea;
+    color: #4b1649;
 }
 
 li {
@@ -88,28 +88,30 @@ i {
 #tours,
 #parties {
 	display: flex;
+	align-items: center;
 }
 
 #counseling .content,
 #planning .content,
 #tours .content,
 #parties .content {
-	padding: 120px 40px 0;
+	padding: 0 40px;
 }
 
 #counseling .content i,
 #planning .content i,
 #tours .content i,
 #parties .content i {
-	justify-content: center;
+
 }
 
 #counseling img,
 #planning img,
 #tours img,
 #parties img {
-	width: 400px;
-	height: 500px;
+/*	width: 400px;
+	height: 500px;*/
+	width: 50%;
 }
 
 #counseling .content h3,
@@ -126,3 +128,4 @@ i {
 #parties .content p {
 	font-size: 15px;
 	font-weight: 200;
+}

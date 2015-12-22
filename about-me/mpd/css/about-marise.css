@@ -32,6 +32,11 @@ h2:last-child {
 	padding: none;
 }
 
+h3 {
+	font-weight: 400;
+	margin: 0 0 10px 0;
+}
+
 .site-wrapper {
 	display: flex;
 }
@@ -76,7 +81,7 @@ aside {
 
 a {
 	text-decoration: none;
-    color: #00aaea;
+    color: #4b1649;
 }
 
 i {
@@ -111,6 +116,15 @@ img {
 	padding: 0 0 30px 0;
 }
 
-.col2 .resume h3 {
+.resume h3 {
 	padding: 0 20px 0 0;
+}
+
+.resume ul {
+	font-weight: 200;
+	margin: 0 0 5px 20px;
+}
+
+.resume h2 {
+	margin: 0 0 10px;
 }

@@ -91,7 +91,7 @@ a {
 }
 
 img {
-	width: 75%;
+	width: 50%;
 }
 
 input {
@@ -102,6 +102,9 @@ input {
 
 #button {
 	width: 150px;
+	height: 25px;
+	color: white;
+	background-color: #4b1649;
 }
 
 #message {

@@ -471,26 +471,54 @@ input, textarea  {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width:750px) {
+
+  .header {
+    flex-direction:column;
+
+  }
+    
+  .social {
+    flex-wrap: wrap;
+    flex-direction:column;
+    height:100%;
+    margin-top:60px;
+    
+  }  
+
+  .topnav {
+   right:0;
+   top:0;  
+ }
+}
+
+@media (max-width:480px) {
+
+#categories .contents {
+  padding-top: 90px;
+}
+
+.wrap {
+  padding: 0;
+}
+
+#industrial .contents {
+    display: inline;
+    padding-bottom: 50px;
+}
+
+#industrial .first, 
+#industrial .second, 
+#industrial .third, 
+#industrial .fourth, 
+#industrial .fifth, 
+#industrial .last {
+    padding-bottom: 0; 
 
 }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
+#aboutme {
+  .flexbox {
+    display: block;
+  }
 }
